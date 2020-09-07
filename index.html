@@ -1,168 +1,127 @@
-<!doctype HTML>
-<html>
-	<head>
-		<title>Spencer Yeager</title>
-			<style>
-			body {
-			/* This is the background section of the website.*/
-			margin:0;
-			padding:0;
-			background:#6b7a8f;
-			}
-			header {
-			border: 1px;
-			border-style:solid;
-			border-color:#F7C331;
-			padding:1rem;
-			background:#F7882F;
-			color:#383838;
-			Max-width:900px;
-			margin:0 auto; /* Center the element.*/
-			text-align:center;
-			}
-			header h1 {
-			font-family:Sans-serif;
-			}
-			.navbar {
-			List-style:none; /* This removes the dots next to a list.*/
-			padding:0;
-			margin:0;
-			border: 1px;
-			border-style:solid;
-			border-color:#F7C331;
-			padding-left:1rem;
-			padding-right:1rem;
-			background:#DCC7AA;
-			max-width:900px;
-			margin:0 auto;
-			font-family:Sans-serif;
-			}
-			.navbar li {
-			display:inline-block;
-			}
-			.navbar li a { /* Here we are using hierarchy to select elements.*/
-			color:#383838;
-			padding:1rem;
-			display:block;
-			}
-			.navbar li a:hover {
-			background:#FFF;
-			color:#000;
-			}
-			.content {
-			font-family:Sans-serif;
-			max-width:900px;
-			margin:0 auto;
-			border: 1px;
-			border-style:solid;
-			border-color:#DCC7AA;
-			background:#FFF;
-			padding:1rem;
-			}
-			.content-noline {
-			font-family:Sans-serif;
-			border:0px;
-			max-width:900px;
-			margin:0 auto;
-			border-style:solid;
-			border-color:#E64A19;
-			background:#FFF;
-			padding:1rem;
-			text-align: center;
-			}
-			footer {
-			font-family:Sans-serif;
-			max-width:900px;
-			margin:0 auto;
-			border: 1px;
-			border-style:solid;
-			border-color:#E64A19;
-			padding:1rem;
-			color:#383838;
-			background:#FFCC80;
-			text-align:center;
-			}
-			.column {
-			float: left;
-			margin-left: 50px;
-			margin-right: auto;
-			max-width: 450px;
-			}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spencer Yeager</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+* {
+  box-sizing: border-box;
+}
 
-			/* Clear floats after the columns */
-			.row:after {
-			content: "";
-			display: table;
-			clear: both;
-			}
-			
-			
-			</style>
-		</head>
-	<body>
-		<header>
-			<i><h1>Spencer Yeager</h1></i>
-		</header>
-	<ul class="navbar">
-		<li><a href="index.html"><b>About</b></a></li>
-		<li><a href="https://github.com/spenceryeager" target="_blank"><b>Github</b></a></li>
-		<li><a href="https://scholar.google.com/citations?user=QSSWmjQAAAAJ&hl=en" target="_blank"><b>Google Scholar</b></a></li>
-		<li><a href="https://chem.cst.temple.edu/" target="_blank"><b>Temple Chemistry</b></a></li>
-	</ul>
-	<div class="content">
-			<div class="row">
-	<div class="column">
-		<div class="content-noline">
-		<h2>Education</h2>
-			<h4>Temple University Class of 2019</h4>
-			<p><b>B.Sc Chemistry</b> with ACS Accreditation</p>
-			<p><b>Minor</b> Information Science and Technology
-	</div>
-	</div>
-	<div class="column">	
-		<div class="content-noline">
-			<h2>Honors</h2>
-				<p>Three-time recipient of the <b>Windhover Scholarship</b></p>
-				<p><a href="https://cst.temple.edu/academics/scholarships-and-awards/cst-awards" target="_blank"><b>Richard Asher Paclin Memorial Award</b> in Chemistry</a></p>
-				<p><b>Deans List</b> (Fa '15, Sp '16, Sp '17, Sp '18)</p>
-				<p>Distinction in Major</p>
-		</div>
-	</div>
-	</div>
-	</div>	
-	<div class="content">
-		<center><h2>Professional Experience</h2></center>
-			<ul>
-				<li><p><b>Process Analytics Scientist II</b>, <a href="https://www.eurofins.com/biopharma-services/product-testing/services/professional-scientific-services/about-pss/" target="_blank">Eurofins PSS, LCC</a>, West Point, PA</p></li>
-				<p><i> August 2019- Present</i></p>
-				<li><p><b>Undergraduate Research Assistant</b>, <a href="http://www.willetslab.com/" target="_blank">Willets Lab</a>, Temple University, Philadelphia PA</p></li>
-				<p><i> May 2017 - August 2019</i></p>
-				<li><p><b>Undergraduate Research Fellow</b>, Davis Lab, University of Mississippi, Oxford MS</p>
-				<p><i>May 2016 - August 2016</i></p>
-				<p> One of ten student nationally picked to participate in the <a href="http://laser.chem.olemiss.edu/~pchem/" target="_blank">NSF-funded REU site</a></p>
+body {
+  background-color: #ede8e9;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
 
-	</div>
-	<div class="content">
-		<center><h2>Publications</h2></center>
-			<ol>
-				<li><p>MRMP2, CCSD(T), and DFT Calculations of the Isomerization Barriers for the Disrotatory and Conrotatory Isomerizations 
-of 3-Aza-3-ium-dihydrobenzvalene, 3,4-Diaza-3-ium-dihydrobenzvalene, and 3,4-Diaza-diium-dihydrobenzvalene</p>
-				<p><i>Jeffrey D. Veals, Kimberley N. Poland, William P. Earwood, <b>Spencer M. Yeager</b>, Kari L. Copeland, and Steven R. Davis*</i></p>
-				<p><i>J. Phys. Chem. A, </i><b>2017</b>,<i> 121 (46), pp 8899–8911 </i></p>
-				<p><b>DOI:</b> 10.1021/acs.jpca.7b08227</p>
-				<p> Click <a href=https://pubs.acs.org/doi/abs/10.1021/acs.jpca.7b08227>here</a> for more information</p> 
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #37141b;
+  overflow-x: hidden;
+}
 
-	</div>
-	<div class="content">
-		<center><h2> Presentations </h2></center>
-				<ul>
-				 <li><p>2018 Undergraduate Research Symposium, Temple University, Philadelphia, PA, <i>"Super-Resolution Imaging
-    of Fluorophores Bound to Silica Nanosphere Surfaces"</i></p>
-				  <li><p>2017 Undergraduate Research Symposium, Temple University, Philadelphia, PA, <i>"Super-Resolution Imaging
-    of Fluorophores Bound to Silica Nanosphere Surfaces"</i></p>
-				  <li><p>2016 Ole Miss Chemistry Summer Research Program, Oxford, MS, <i>"Isomerization Reaction of Strained Tricyclo- Species"</i></p>
-	</div>
-	<footer>
-		<p>For any questions or concerns, contact me at yeager dot spencer at gmail dot com</p>
-	</footer>
-</body
+
+/* Side navigation links */
+.sidenav a {
+  color: #ede8e9;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ede8e9;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+</style> </head>
+  <body>
+    <div class="sidenav"> <a href="#">About me</a> <a href="https://www.cbc.arizona.edu/">UofA
+        CBC</a> <a href="https://github.com/spenceryeager">Github</a> <a href="https://www.linkedin.com/in/spenceryeager/">LinkedIn</a>
+      <a href="https://twitter.com/SpencerYeager">Twitter</a> </div>
+    <div class="content">
+      <h1>Spencer Yeager</h1>
+      <p> <i>University of Arizona</i> </p>
+      <p>Graduate Student, Department of Chemistry and Biochemistry</p>
+      <p>spenceryeager at email dot arizona dot edu</p>
+      <p><br>
+      </p>
+      <h2>Education</h2>
+      <h3>University of Arizona Class of 2025</h3>
+      <p><b>Ph. D. Analytical Chemistry</b></p>
+      <p><b>Minor </b>Physical Chemistry</p>
+      <p>Honors &amp; more here</p>
+      <p><br>
+      </p>
+      <h3>Temple University Class of 2019</h3>
+      <p><b>B. Sc. Chemistry</b> with ACS Accreditation</p>
+      <p><b>Minor</b> Information Science And Technology</p>
+      <p>Distinction in Major</p>
+      <p>Honors &amp; more here</p>
+      <p><br>
+      </p>
+      <h2>Professional Experience</h2>
+      <ul>
+        <li><b>Graduate Research Assistant</b>, <a href="https://ratcliff.faculty.arizona.edu/">Laboratory
+            for Interface Science of Printable Electronic Materials</a>,
+          University of Arizona, Tucson AZ <br>
+          <em>August 2020 - Present</em><strong><br>
+            <br>
+          </strong></li>
+        <li><strong>Graduate Teaching Assistant</strong>, Department of
+          Chemistry and Biochemistry, University of Arizona, Tucson AZ<em><strong></strong></em><em><br>
+            CHEM 151: Chemical Thinking</em><em><br>
+            Fall 2020, Sections 002H &amp; 005G</em><strong><br>
+            <br>
+          </strong></li>
+        <li><strong>Process Analytics Scientist II</strong>, <a href="https://www.eurofins.com/biopharma-services/product-testing/services/professional-scientific-services/about-pss/">Eurofins
+            Professional Scientific Services, LLC</a>, West Point PA<em><br>
+            August 2019 - July 2020<br>
+            <br>
+          </em></li>
+        <li><strong>Undergraduate Research Assistant</strong>, <a href="http://www.willetslab.com/">Willets
+            Lab</a>, Temple University, Philadelphia PA<em><br>
+            May 2017 - August 2019<br>
+            <br>
+          </em></li>
+        <li><strong>Undergraduate Research Fellow</strong>, Davis Lab,
+          University of Mississippi, Oxford MS<br>
+          <em>May 2016 - August 2016<br>
+          </em>One of ten students nationally picked to participate at this <a
+
+            href="http://laser.chem.olemiss.edu/%7Epchem/">NSF-funded REU site</a></li>
+      </ul>
+      <p><em><strong></strong></em></p>
+      <p><br>
+        <strong></strong></p>
+      <h2>Publications</h2>
+      <ol>
+        <li>
+          <p>MRMP2, CCSD(T), and DFT Calculations of the Isomerization Barriers
+            for the Disrotatory and Conrotatory Isomerizations of
+            3-Aza-3-ium-dihydrobenzvalene, 3,4-Diaza-3-ium-dihydrobenzvalene,
+            and 3,4-Diaza-diium-dihydrobenzvalene</p>
+          <p><i>Jeffrey D. Veals, Kimberley N. Poland, William P. Earwood, <b>Spencer
+                M. Yeager</b>, Kari L. Copeland, and Steven R. Davis*</i></p>
+          <p><i>J. Phys. Chem. A, </i><b>2017</b>,<i> 121 (46), pp 8899–8911</i><b><br>
+              DOI:</b> 10.1021/acs.jpca.7b08227<br>
+            Click <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpca.7b08227">here</a>
+            for more information</p>
+        </li>
+      </ol>
+    </div>
+  </body>
+</html>
